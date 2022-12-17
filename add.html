@@ -27,10 +27,9 @@
         data-color="blue"
         data-image="assets/img/sidebar-5.jpg"
       >
-
         <div class="sidebar-wrapper">
           <div class="logo">
-            <a href="http://www.afroperia.com" class="simple-text">
+            <a href="http://www.creative-tim.com" class="simple-text">
               Admin name
             </a>
           </div>
@@ -58,21 +57,21 @@
               </a>
             </li>
             <li>
-                <a href="manage_cities.html">
-                  <p>Manage Cities</p>
-                </a>
-              </li>
-              <li>
-                <a href="manage_payment_method.html">
-                  <p>Manage PaymentMethod</p>
-                </a>
-              </li>
-              <li>
-                <a href="manage_users.html">
-                  <p>Manage Users</p>
-                </a>
-              </li>
-              </ul>
+              <a href="manage_cities.html">
+                <p>Manage Cities</p>
+              </a>
+            </li>
+            <li>
+              <a href="manage_payment_method.html">
+                <p>Manage PaymentMethod</p>
+              </a>
+            </li>
+            <li>
+              <a href="manage_users.html">
+                <p>Manage Users</p>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -126,47 +125,97 @@
         </nav>
 
         <div class="content">
-
-          <a href="add.html" class="add_link text-uppercase "> add new user </a>
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-12">
-                <div class="card card-plain">
-                  <div class="header">
-                    <h1 class="title">Users</h1>
-                  </div>
-                  <div class="content table-responsive table-full-width">
-                    <table class="table table-hover">
-                      <thead>
-                        <th>name</th>
-                        <th>role</th>
-                        <th>profile</th>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Bona</td>
-                          <td>System admin</td>
-                          <td><img src="" alt="no image"></td>
-                          <td>
-                            <button class="edit_delete_btn bg-primary">
-                              Edit
-                            </button>
-                          </td>
-                          <td>
-                            <button class="edit_delete_btn bg-primary">
-                              Delete
-                            </button>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+              <!-- Card added start -->
+              <div class="card">
+                <div class="header">
+                  <h4 class="title"> Add Here</h4>
+                </div>
+                <div class="content">
+                  <form class="">
+                    <label for="location">City</label>
+                    <div class="form-floating mb-3">
+                      <select
+                        class="form-select mb-8 p-20"
+                        id="location"
+                        aria-label="Location"
+                      >
+                        <option class="p-20" value="Addis Ababa">
+                          Addis Ababa
+                        </option>
+                        <option value="Dire Dawa">Dire Dawa</option>
+                        <option value="Jimma">Jimma</option>
+                      </select>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <label for="name">Name</label>
+                      <input
+                        class="form-control"
+                        id="fname"
+                        type="text"
+                        placeholder="fname"
+                      />
+                    </div>
+                    <div class="form-floating mb-3">
+                      <label for="relativeLocation">Relative location</label>
+                      <input
+                        class="form-control"
+                        id="lname"
+                        type="text"
+                        placeholder="lname"
+                      />
+                    </div>
+                    <div class="form-floating mb-3">
+                      <label for="AbsoluteLocation">Absolute location</label>
+                      <input
+                        class="form-control"
+                        id="lname"
+                        type="text"
+                        placeholder="lname"
+                      />
+                    </div>
+                    <div class="form-floating mb-3">
+                      <label for="picture">Picture</label>
+                      <input
+                        class="form-control"
+                        id="emailAddress"
+                        type="file"
+                      />
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <label for="description">description</label>
+                      <textarea
+                        class="form-control"
+                        id="description"
+                        type="text"
+                        placeholder="description"
+                        style="height: 10rem"
+                      ></textarea>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <label for="customerService">Customer service</label>
+                      <input
+                        class="form-control"
+                        id="password"
+                        type="text"
+                        placeholder="password"
+                      />
+                    </div>
+
+                    <button class="submit__btn bg-primary" type="submit">
+                      Save
+                    </button>
+                  </form>
                 </div>
               </div>
+              <!-- card added end -->
             </div>
           </div>
         </div>
-             
+
         <footer class="footer">
           <div class="container-fluid">
             <nav class="pull-left"></nav>
@@ -181,4 +230,3 @@
   <script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
   <script src="assets/js/demo.js"></script>
 </html>
-
